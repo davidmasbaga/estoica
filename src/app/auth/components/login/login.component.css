@@ -1,0 +1,8 @@
+#buttonDiv {
+border-radius: 15px;
+
+}
+
+#buttonDiv > div {
+  box-shadow: 0 2px 6px #888;
+}

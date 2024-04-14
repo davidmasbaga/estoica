@@ -1,0 +1,14 @@
+
+  <section class="modal">
+  <h2 mat-dialog-title>¿Estás seguro?</h2>
+  <mat-dialog-content>
+    <p>Este proceso no es reversible está a punto de eliminar {{data.url|domainExtractor}} </p>
+  </mat-dialog-content >
+  <mat-dialog-actions align="end">
+
+    <button class="text-blue-400 hover:text-white border border-blue-400 hover:bg-blue-500  rounded-3xl text-sm px-5 py-2.5 text-center me-2 mb-2 "  (click)="onNoClick()" >No</button>
+
+    <button class="text-red-400 hover:text-white border border-red-400 hover:bg-red-500 focus:ring-4  font-medium rounded-3xl text-sm px-5 py-2.5 text-center me-2 mb-2 " (click)="onConfirm()"  >Sí, Borrar</button>
+
+  </mat-dialog-actions>
+</section>
