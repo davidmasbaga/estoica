@@ -1,21 +1,6 @@
 {
   "media": [
     {
-      "url": "https://redhistoria.com/",
-      "Country": "Spain",
-      "Language": "Spanish",
-      "Topics": [
-        "News, Society and Politics",
-        "Education, Pre-school and Languages",
-        "History"
-      ],
-      "Contact_Email": "marcelo@redhistoria.com",
-      "DF_Written_by_media": 90,
-      "DF_written_by_us": 90,
-      "price_df_in_growwer": 126,
-      "id": "18"
-    },
-    {
       "url": "htaria.com/",
       "Country": "Spain",
       "Language": "Spanish",
